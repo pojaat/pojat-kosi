@@ -2,7 +2,10 @@
 Pojaat organisaation viralliset kotisivut.
 
 ## Building
-Install python yes then flask okay
+Install python yes then flask okay by doink
+```
+pip install requirements.txt
+```
 then change the um uh
 ```python
 app.run(host="localhost")
