@@ -14,5 +14,9 @@ def return_homepage():
 def tony():
     return render_template("tony.html")
 
+@app.route("/alibi")
+def alibi():
+    return render_template("alibi.html")
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)
