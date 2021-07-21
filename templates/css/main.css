@@ -6,6 +6,7 @@ Colors
 #8DA9C4 - Cadet Grey
 #EEF4ED - Mint cream
 #262730 - Raisin Black
+
 */
 
 
@@ -28,5 +29,7 @@ body {
 @media screen and (max-width: 800px) {
     #footer{
         display:block;
+        background-color: #EEF4ED;
+        size: 15%;
     }
 }
