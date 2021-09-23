@@ -61,48 +61,10 @@
     <div class="container py-3">
       <div class="row justify-content-evenly">
         <div class="col-6 border">
-        <ul>
-          <li>
-            192.168.0.0
-          </li>
-          <li>
-            192.168.0.0
-          </li>
-          <li>
-            192.168.0.0
-          </li>
-          <li>
-            192.168.0.0
-          </li>
-          <li>
-            192.168.0.0
-          </li>
-          <li>
-            192.168.0.0
-          </li>
-        </ul>
-        </div>
-        <div class="col-6 border">
-          <ul>
-            <li>
-              192.168.0.0
-            </li>
-            <li>
-              192.168.0.0
-            </li>
-            <li>
-              192.168.0.0
-            </li>
-            <li>
-              192.168.0.0
-            </li>
-            <li>
-              192.168.0.0
-            </li>
-            <li>
-              192.168.0.0
-            </li>
-          </ul>
+              {% for item in data %}
+              <p> {{ item }} </p>
+              {% endfor %}
+            
 
         </div>
       </div>
