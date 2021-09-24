@@ -4,7 +4,7 @@ Pojaat organisaation viralliset kotisivut.
 ## Building
 Install [python](https://www.python.org/downloads/) yes then flask okay by doink
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 then change the um uh
 ```python
