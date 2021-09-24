@@ -8,7 +8,11 @@ def index():
 
 @app.route(f'/<file>')
 def hello_world(file):
-    return render_template(file)
+    try:
+        return render_template(file)
+    except Exception as e:
+        print(e,file)
+        return f"404, /{file} isn't the page you're looking for."
 
 @app.route("/alibi.html")
 def alibi():
