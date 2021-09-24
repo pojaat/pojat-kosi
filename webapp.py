@@ -1,6 +1,6 @@
 from flask import Flask, redirect, render_template
 
-app = Flask(__name__, static_folder="/root/pojat-kosi")
+app = Flask(__name__, static_folder="")
 
 @app.route("/")
 def index():
