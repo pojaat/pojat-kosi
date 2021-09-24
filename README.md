@@ -6,10 +6,11 @@ Install [python](https://www.python.org/downloads/) yes then flask okay by doink
 ```
 pip install -r requirements.txt
 ```
-then change the um uh
-```python
-app.run(host="localhost")
+then do
 ```
-instead of deployment ip okay
+python webapp.py
+```
 
-the naviaget to [localhost:5000](localhost:5000) by default
+voi jumala armahda ja dockeroi tää joskus
+
+the naviaget to [localhost](http://localhost) by default
